@@ -42,9 +42,9 @@ variable "tags" {
   description = "A map of tags to add to all resources"
   type        = map(string)
   default = {
-    "Project"     = "TerraformEKSWorkshop"
+    "Project"     = "sample_node_group"
     "Environment" = "Development"
-    "Owner"       = "Ashish Patel"
+    "Owner"       = "sreevas"
   }
 }
 
